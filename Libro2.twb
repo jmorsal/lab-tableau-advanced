@@ -1,0 +1,2572 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0515.0324                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='we_fn_use_c_marketing_customer_value_analysis' inline='true' name='federated.0lvfbdu1awrmny114pem40c9y2d8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='we_fn_use_c_marketing_customer_value_analysis' name='textscan.1gj6pef1dxsb3r1814n8o1oyew0l'>
+            <connection class='textscan' directory='C:/Users/javie/Documentos no sincronizado/Ironhack/lab-tableau' filename='we_fn_use_c_marketing_customer_value_analysis.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1gj6pef1dxsb3r1814n8o1oyew0l' name='we_fn_use_c_marketing_customer_value_analysis.csv' table='[we_fn_use_c_marketing_customer_value_analysis#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES'>
+            <column datatype='string' name='Customer' ordinal='0' />
+            <column datatype='string' name='State' ordinal='1' />
+            <column datatype='string' name='Customer 1' ordinal='2' />
+            <column datatype='string' name='Lifetime' ordinal='3' />
+            <column datatype='string' name='Value' ordinal='4' />
+            <column datatype='string' name='Response' ordinal='5' />
+            <column datatype='string' name='Coverage' ordinal='6' />
+            <column datatype='string' name='Education' ordinal='7' />
+            <column datatype='string' name='Effective' ordinal='8' />
+            <column datatype='string' name='To' ordinal='9' />
+            <column datatype='string' name='Date' ordinal='10' />
+            <column datatype='string' name='EmploymentStatus' ordinal='11' />
+            <column datatype='string' name='Gender' ordinal='12' />
+            <column datatype='string' name='Income' ordinal='13' />
+            <column datatype='string' name='Location' ordinal='14' />
+            <column datatype='integer' name='Code' ordinal='15' />
+            <column datatype='integer' name='Marital' ordinal='16' />
+            <column datatype='string' name='Status' ordinal='17' />
+            <column datatype='string' name='Monthly' ordinal='18' />
+            <column datatype='string' name='Premium' ordinal='19' />
+            <column datatype='string' name='Auto' ordinal='20' />
+            <column datatype='string' name='Months' ordinal='21' />
+            <column datatype='string' name='Since' ordinal='22' />
+            <column datatype='string' name='Last' ordinal='23' />
+            <column datatype='string' name='Claim' ordinal='24' />
+            <column datatype='string' name='Months 1' ordinal='25' />
+            <column datatype='string' name='Since 1' ordinal='26' />
+            <column datatype='string' name='Policy' ordinal='27' />
+            <column datatype='string' name='Inception' ordinal='28' />
+            <column datatype='string' name='Number' ordinal='29' />
+            <column datatype='string' name='of' ordinal='30' />
+            <column datatype='string' name='Open' ordinal='31' />
+            <column datatype='string' name='Complaints' ordinal='32' />
+            <column datatype='string' name='Number 1' ordinal='33' />
+            <column datatype='string' name='of 1' ordinal='34' />
+            <column datatype='string' name='Policies' ordinal='35' />
+            <column datatype='string' name='Policy 1' ordinal='36' />
+            <column datatype='string' name='Type' ordinal='37' />
+            <column datatype='string' name='Policy 2' ordinal='38' />
+            <column datatype='string' name='Renew' ordinal='39' />
+            <column datatype='string' name='Offer' ordinal='40' />
+            <column datatype='string' name='Type 1' ordinal='41' />
+            <column datatype='string' name='Sales' ordinal='42' />
+            <column datatype='string' name='Channel' ordinal='43' />
+            <column datatype='string' name='Total' ordinal='44' />
+            <column datatype='string' name='Claim 1' ordinal='45' />
+            <column datatype='string' name='Amount' ordinal='46' />
+            <column datatype='string' name='Vehicle' ordinal='47' />
+            <column datatype='string' name='Class' ordinal='48' />
+            <column datatype='string' name='Vehicle 1' ordinal='49' />
+            <column datatype='string' name='Size' ordinal='50' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1gj6pef1dxsb3r1814n8o1oyew0l' name='we_fn_use_c_marketing_customer_value_analysis.csv' table='[we_fn_use_c_marketing_customer_value_analysis#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES'>
+            <column datatype='string' name='Customer' ordinal='0' />
+            <column datatype='string' name='State' ordinal='1' />
+            <column datatype='string' name='Customer 1' ordinal='2' />
+            <column datatype='string' name='Lifetime' ordinal='3' />
+            <column datatype='string' name='Value' ordinal='4' />
+            <column datatype='string' name='Response' ordinal='5' />
+            <column datatype='string' name='Coverage' ordinal='6' />
+            <column datatype='string' name='Education' ordinal='7' />
+            <column datatype='string' name='Effective' ordinal='8' />
+            <column datatype='string' name='To' ordinal='9' />
+            <column datatype='string' name='Date' ordinal='10' />
+            <column datatype='string' name='EmploymentStatus' ordinal='11' />
+            <column datatype='string' name='Gender' ordinal='12' />
+            <column datatype='string' name='Income' ordinal='13' />
+            <column datatype='string' name='Location' ordinal='14' />
+            <column datatype='integer' name='Code' ordinal='15' />
+            <column datatype='integer' name='Marital' ordinal='16' />
+            <column datatype='string' name='Status' ordinal='17' />
+            <column datatype='string' name='Monthly' ordinal='18' />
+            <column datatype='string' name='Premium' ordinal='19' />
+            <column datatype='string' name='Auto' ordinal='20' />
+            <column datatype='string' name='Months' ordinal='21' />
+            <column datatype='string' name='Since' ordinal='22' />
+            <column datatype='string' name='Last' ordinal='23' />
+            <column datatype='string' name='Claim' ordinal='24' />
+            <column datatype='string' name='Months 1' ordinal='25' />
+            <column datatype='string' name='Since 1' ordinal='26' />
+            <column datatype='string' name='Policy' ordinal='27' />
+            <column datatype='string' name='Inception' ordinal='28' />
+            <column datatype='string' name='Number' ordinal='29' />
+            <column datatype='string' name='of' ordinal='30' />
+            <column datatype='string' name='Open' ordinal='31' />
+            <column datatype='string' name='Complaints' ordinal='32' />
+            <column datatype='string' name='Number 1' ordinal='33' />
+            <column datatype='string' name='of 1' ordinal='34' />
+            <column datatype='string' name='Policies' ordinal='35' />
+            <column datatype='string' name='Policy 1' ordinal='36' />
+            <column datatype='string' name='Type' ordinal='37' />
+            <column datatype='string' name='Policy 2' ordinal='38' />
+            <column datatype='string' name='Renew' ordinal='39' />
+            <column datatype='string' name='Offer' ordinal='40' />
+            <column datatype='string' name='Type 1' ordinal='41' />
+            <column datatype='string' name='Sales' ordinal='42' />
+            <column datatype='string' name='Channel' ordinal='43' />
+            <column datatype='string' name='Total' ordinal='44' />
+            <column datatype='string' name='Claim 1' ordinal='45' />
+            <column datatype='string' name='Amount' ordinal='46' />
+            <column datatype='string' name='Vehicle' ordinal='47' />
+            <column datatype='string' name='Class' ordinal='48' />
+            <column datatype='string' name='Vehicle 1' ordinal='49' />
+            <column datatype='string' name='Size' ordinal='50' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Customer</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer 1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Customer 1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lifetime</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Lifetime]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Lifetime</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Response</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Response]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Response</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coverage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Coverage]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Coverage</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effective</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Effective]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Effective</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>To</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[To]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>To</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmploymentStatus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EmploymentStatus]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>EmploymentStatus</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Income]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Income</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Code]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Code</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marital</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Marital]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Marital</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Monthly]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Monthly</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Premium</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Premium]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Premium</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Auto</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Auto]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Auto</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Months</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Months]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Months</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Since</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Since]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Since</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Last]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Last</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Claim</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Claim]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Claim</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Months 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Months 1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Months 1</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Since 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Since 1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Since 1</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Policy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Policy]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Policy</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inception</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Inception]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Inception</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Number]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Number</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>of</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[of]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>of</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Open]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Open</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Complaints</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Complaints]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Complaints</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Number 1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Number 1</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>of 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[of 1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>of 1</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Policies</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Policies]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Policies</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Policy 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Policy 1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Policy 1</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Policy 2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Policy 2]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Policy 2</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Renew</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Renew]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Renew</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Offer]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Offer</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type 1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Type 1</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sales]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Sales</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Channel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Channel]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Channel</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Claim 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Claim 1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Claim 1</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Amount</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Amount]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Amount</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vehicle]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Vehicle</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Class]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Class</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vehicle 1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Vehicle 1</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Size]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>Size</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Code]' role='dimension' type='ordinal' />
+      <column caption='Employment Status' datatype='string' name='[EmploymentStatus]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='we_fn_use_c_marketing_customer_value_analysis.csv' datatype='table' name='[__tableau_internal_object_id__].[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]' role='measure' type='quantitative' />
+      <column caption='Of 1' datatype='string' name='[of 1]' role='dimension' type='nominal' />
+      <column caption='Of' datatype='string' name='[of]' role='dimension' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/javie/AppData/Local/Temp/TableauTemp/#TableauTemp_0dkos7a047lhuw16ag0sy1nq3qvp.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/05/2025 04:35:40 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Customer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer</remote-alias>
+              <ordinal>0</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9134</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>1</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer 1</remote-alias>
+              <ordinal>2</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4210</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Lifetime</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Lifetime]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Lifetime</remote-alias>
+              <ordinal>3</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Value]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Value</remote-alias>
+              <ordinal>4</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Response</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Response]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Response</remote-alias>
+              <ordinal>5</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Coverage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Coverage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Coverage</remote-alias>
+              <ordinal>6</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education</remote-alias>
+              <ordinal>7</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Effective</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Effective]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Effective</remote-alias>
+              <ordinal>8</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>To</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[To]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>To</remote-alias>
+              <ordinal>9</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1680</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>10</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>142</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmploymentStatus</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EmploymentStatus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmploymentStatus</remote-alias>
+              <ordinal>11</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>12</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>685</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Income</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Income]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Income</remote-alias>
+              <ordinal>13</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>140</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Location</remote-alias>
+              <ordinal>14</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>104</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Code</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Code</remote-alias>
+              <ordinal>15</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>191</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Marital</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Marital]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Marital</remote-alias>
+              <ordinal>16</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>62</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Status</remote-alias>
+              <ordinal>17</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>114</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Monthly</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Monthly]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Monthly</remote-alias>
+              <ordinal>18</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Premium</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Premium]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Premium</remote-alias>
+              <ordinal>19</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Auto</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Auto]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Auto</remote-alias>
+              <ordinal>20</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Months</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Months]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Months</remote-alias>
+              <ordinal>21</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Since</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Since]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Since</remote-alias>
+              <ordinal>22</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Last</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Last]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Last</remote-alias>
+              <ordinal>23</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1320</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Claim</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Claim]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Claim</remote-alias>
+              <ordinal>24</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>496</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Months 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Months 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Months 1</remote-alias>
+              <ordinal>25</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Since 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Since 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Since 1</remote-alias>
+              <ordinal>26</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>594</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Policy</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Policy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Policy</remote-alias>
+              <ordinal>27</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>187</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Inception</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Inception]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Inception</remote-alias>
+              <ordinal>28</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number</remote-alias>
+              <ordinal>29</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>of</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[of]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>of</remote-alias>
+              <ordinal>30</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Open</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Open]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Open</remote-alias>
+              <ordinal>31</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Complaints</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Complaints]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Complaints</remote-alias>
+              <ordinal>32</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Number 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number 1</remote-alias>
+              <ordinal>33</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>of 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[of 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>of 1</remote-alias>
+              <ordinal>34</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Policies</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Policies]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Policies</remote-alias>
+              <ordinal>35</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Policy 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Policy 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Policy 1</remote-alias>
+              <ordinal>36</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type</remote-alias>
+              <ordinal>37</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Policy 2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Policy 2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Policy 2</remote-alias>
+              <ordinal>38</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Renew</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Renew]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Renew</remote-alias>
+              <ordinal>39</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Offer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Offer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Offer</remote-alias>
+              <ordinal>40</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type 1</remote-alias>
+              <ordinal>41</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sales</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sales</remote-alias>
+              <ordinal>42</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Channel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Channel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Channel</remote-alias>
+              <ordinal>43</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Total]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total</remote-alias>
+              <ordinal>44</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Claim 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Claim 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Claim 1</remote-alias>
+              <ordinal>45</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Amount</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Amount</remote-alias>
+              <ordinal>46</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vehicle</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Vehicle]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vehicle</remote-alias>
+              <ordinal>47</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Class</remote-alias>
+              <ordinal>48</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vehicle 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Vehicle 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vehicle 1</remote-alias>
+              <ordinal>49</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Size</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Size]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Size</remote-alias>
+              <ordinal>50</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='we_fn_use_c_marketing_customer_value_analysis.csv' id='we_fn_use_c_marketing_customer_value_analysis.csv_7E551CB2A12E428CA289006B242500B1'>
+            <properties context=''>
+              <relation connection='textscan.1gj6pef1dxsb3r1814n8o1oyew0l' name='we_fn_use_c_marketing_customer_value_analysis.csv' table='[we_fn_use_c_marketing_customer_value_analysis#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES'>
+                  <column datatype='string' name='Customer' ordinal='0' />
+                  <column datatype='string' name='State' ordinal='1' />
+                  <column datatype='string' name='Customer 1' ordinal='2' />
+                  <column datatype='string' name='Lifetime' ordinal='3' />
+                  <column datatype='string' name='Value' ordinal='4' />
+                  <column datatype='string' name='Response' ordinal='5' />
+                  <column datatype='string' name='Coverage' ordinal='6' />
+                  <column datatype='string' name='Education' ordinal='7' />
+                  <column datatype='string' name='Effective' ordinal='8' />
+                  <column datatype='string' name='To' ordinal='9' />
+                  <column datatype='string' name='Date' ordinal='10' />
+                  <column datatype='string' name='EmploymentStatus' ordinal='11' />
+                  <column datatype='string' name='Gender' ordinal='12' />
+                  <column datatype='string' name='Income' ordinal='13' />
+                  <column datatype='string' name='Location' ordinal='14' />
+                  <column datatype='integer' name='Code' ordinal='15' />
+                  <column datatype='integer' name='Marital' ordinal='16' />
+                  <column datatype='string' name='Status' ordinal='17' />
+                  <column datatype='string' name='Monthly' ordinal='18' />
+                  <column datatype='string' name='Premium' ordinal='19' />
+                  <column datatype='string' name='Auto' ordinal='20' />
+                  <column datatype='string' name='Months' ordinal='21' />
+                  <column datatype='string' name='Since' ordinal='22' />
+                  <column datatype='string' name='Last' ordinal='23' />
+                  <column datatype='string' name='Claim' ordinal='24' />
+                  <column datatype='string' name='Months 1' ordinal='25' />
+                  <column datatype='string' name='Since 1' ordinal='26' />
+                  <column datatype='string' name='Policy' ordinal='27' />
+                  <column datatype='string' name='Inception' ordinal='28' />
+                  <column datatype='string' name='Number' ordinal='29' />
+                  <column datatype='string' name='of' ordinal='30' />
+                  <column datatype='string' name='Open' ordinal='31' />
+                  <column datatype='string' name='Complaints' ordinal='32' />
+                  <column datatype='string' name='Number 1' ordinal='33' />
+                  <column datatype='string' name='of 1' ordinal='34' />
+                  <column datatype='string' name='Policies' ordinal='35' />
+                  <column datatype='string' name='Policy 1' ordinal='36' />
+                  <column datatype='string' name='Type' ordinal='37' />
+                  <column datatype='string' name='Policy 2' ordinal='38' />
+                  <column datatype='string' name='Renew' ordinal='39' />
+                  <column datatype='string' name='Offer' ordinal='40' />
+                  <column datatype='string' name='Type 1' ordinal='41' />
+                  <column datatype='string' name='Sales' ordinal='42' />
+                  <column datatype='string' name='Channel' ordinal='43' />
+                  <column datatype='string' name='Total' ordinal='44' />
+                  <column datatype='string' name='Claim 1' ordinal='45' />
+                  <column datatype='string' name='Amount' ordinal='46' />
+                  <column datatype='string' name='Vehicle' ordinal='47' />
+                  <column datatype='string' name='Class' ordinal='48' />
+                  <column datatype='string' name='Vehicle 1' ordinal='49' />
+                  <column datatype='string' name='Size' ordinal='50' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Boxplot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='we_fn_use_c_marketing_customer_value_analysis' name='federated.0lvfbdu1awrmny114pem40c9y2d8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lvfbdu1awrmny114pem40c9y2d8'>
+            <column datatype='string' name='[Claim 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Vehicle 1]' role='dimension' type='nominal' />
+            <column-instance column='[Claim 1]' derivation='None' name='[none:Claim 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Vehicle 1]' derivation='None' name='[none:Vehicle 1:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Vehicle 1:nk] / [federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Claim 1:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7A581557-DAEC-4487-A9B2-EF40920F1478}' />
+    </worksheet>
+    <worksheet name='Choropleth'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='we_fn_use_c_marketing_customer_value_analysis' name='federated.0lvfbdu1awrmny114pem40c9y2d8' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0lvfbdu1awrmny114pem40c9y2d8'>
+            <column datatype='string' name='[Customer]' role='dimension' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Customer]' derivation='None' name='[none:Customer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0lvfbdu1awrmny114pem40c9y2d8].[none:State:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Customer:nk] * [federated.0lvfbdu1awrmny114pem40c9y2d8].[Latitude (generated)])</rows>
+        <cols>[federated.0lvfbdu1awrmny114pem40c9y2d8].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{D81AB0D0-9D47-4F65-A64B-B639D39DDD08}' />
+    </worksheet>
+    <worksheet name='Regresión'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='we_fn_use_c_marketing_customer_value_analysis' name='federated.0lvfbdu1awrmny114pem40c9y2d8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lvfbdu1awrmny114pem40c9y2d8'>
+            <column datatype='string' name='[Customer 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Income]' role='dimension' type='nominal' />
+            <column-instance column='[Customer 1]' derivation='None' name='[none:Customer 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Income]' derivation='None' name='[none:Income:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+          </pane>
+        </panes>
+        <rows>[federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Customer 1:nk]</rows>
+        <cols>[federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Income:nk]</cols>
+      </table>
+      <simple-id uuid='{48A2A42B-608A-4EF0-ACE5-BB923698BE7D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='33837' id='3' name='Choropleth' w='96769' x='2462' y='3256' />
+        <zone h='33256' id='4' name='Regresión' w='43538' x='0' y='45698' />
+        <zone h='33256' id='5' name='Boxplot' w='42615' x='56615' y='49884' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='6' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone fixed-size='280' h='33837' id='3' is-fixed='true' name='Choropleth' w='96769' x='2462' y='3256'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33256' id='4' is-fixed='true' name='Regresión' w='43538' x='0' y='45698'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33256' id='5' is-fixed='true' name='Boxplot' w='42615' x='56615' y='49884'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{55230A20-134B-41DA-A88F-62E6C237C02B}' />
+    </dashboard>
+    <dashboard name='Historia 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3423' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4253' />
+            <zone h='84440' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14730'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='Dashboard 1' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{792F7F26-5A5F-47AC-9158-413EDFD105CC}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Choropleth'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='86'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Customer:nk]</field>
+            <field>[federated.0lvfbdu1awrmny114pem40c9y2d8].[none:State:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C6918B44-65A5-4AAF-8E07-D29D8D00D381}' />
+    </window>
+    <window class='worksheet' name='Regresión'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Customer 1:nk]</field>
+            <field>[federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Income:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{86EC7EF9-38D5-4F22-A38A-B7CE60CCF2F3}' />
+    </window>
+    <window class='worksheet' name='Boxplot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Claim 1:nk]</field>
+            <field>[federated.0lvfbdu1awrmny114pem40c9y2d8].[none:Vehicle 1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{19A318B1-786C-4896-9A82-1E790B7CCA09}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Boxplot' />
+        <viewpoint name='Choropleth'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Regresión' />
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{DBB16AA2-9219-4D55-9B45-1FB752B48407}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Historia 1'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{63584FD6-5293-4503-B905-25D94DAA4F71}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='44' name='Boxplot' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAAAsCAYAAAAzWrf+AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACv0lEQVR4nO3cT0iTcRzH8Y9thbJbWA7sUmSJQYp7shLSINC0qJhEsIVEjNYlvCs0Jnjw
+      EoGHNFsxD4lBOSQdFf3BQ2E8wS4VeWguMcyDiSXzb+uQyvMUuWDPfGzfz+v2fPk9z34e3tue
+      sZmVSCQSIBJqk9kbIDITAyDRGACJxgBINAZAojEAEo0BkGgMgDY0VVXTen0GQKIxABKNAZBo
+      DIBEYwAkGgMg0RgAicYASDQGQKIxABKNAZBoDIBEYwAkGgMg0RgAicYASDQGQKIxABKNAZBo
+      Wcn+N2i6f5NJZKakARCZSVVVKIqStuvzLRCJxgBINAZAojEAEi2FAGIIuhUoigc9XzTjQR8U
+      dxCxXwfwKW4EY9rz9LNBnwK3fsGa80wSCXjhbX2KSe1wPIzmQGRlBQLNYYz/cV4AkdXlAYR/
+      X7DGnPRSfgUoKQE67rzGohG7EceB6oIh9EZmzd6IWCkHkO+6hKrnPXg8bcR2pLFgV+0xzPU+
+      wieztyJU6vcA1jI4nVHc6h42YDsCZR+E89Bb9L2aMXsnIhlyE7zHew9N01fg0d0M0L+y1zTC
+      NdeJ6y8mky8mQxn0KZAVjvqLwO0uvFnUz62bp/Fd++Q2NooR2LEt15hHzhRbjxzH9mcDePdD
+      O81GDuKI61ZG8TFqgWVdd5e5jPsYNO8kzhb34W7/lGZYjMqqGdwP9GJ0HsD8BJ7c7MLwgXI4
+      bIY9cmawFOJ0zRRC4c+aYQFKdw+h+8F7fF0AsDSLkYfdeFlYhiKz9plhrMZdyoZqz3l0uDqB
+      vaWrs4qmdngbG1Ff2YJvCznYcdSDjtY65GnO/NBWB6Vt+eDENaj+ijXnmcp2+BT29bdgYKdj
+      eWJB4bkGlLffgL9hAvGlLcjdX4vLF4o0rwBjCPm8CK0c5p+B/2rNX+f2dftr/g/8MhxtaPwy
+      HFEa/QQvXMD/sm3PVgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Choropleth' width='192'>
+      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
+      b+s4gBv5Fx+XUPajDb3mAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Historia 1' width='192'>
+      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
+      CrGe/w//UPtaZxKAhwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Regresión' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
